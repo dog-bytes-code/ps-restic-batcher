@@ -1,0 +1,14 @@
+{
+    "password": "TestPassword1234",
+    "baseRepositoryPath": "C:/Backups",
+    "backupPaths": [
+        {
+            "sourcePath": "C:/Data/SampleData1",
+            "targetRepository": "data-backup-1"
+        },
+        {
+            "sourcePath": "C:/Data/SampleData2",
+            "targetRepository": "data-backup-2"
+        }
+    ]
+}
