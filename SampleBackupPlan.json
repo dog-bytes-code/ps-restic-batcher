@@ -1,14 +1,16 @@
 {
-    "password": "TestPassword1234",
-    "baseRepositoryPath": "C:/Backups",
-    "backupPaths": [
+    "backupItems": [
         {
             "sourcePath": "C:/Data/SampleData1",
-            "targetRepository": "data-backup-1"
+            "targetRepository": "data-backup-1",
+            "targetRepositoryPath": "C:/Backups",
+            "repositoryPassword": "TestPassword1234"
         },
         {
             "sourcePath": "C:/Data/SampleData2",
-            "targetRepository": "data-backup-2"
+            "targetRepository": "data-backup-2",
+            "targetRepositoryPath": "C:/Backups2",
+            "repositoryPassword": "AnotherPassword9876"
         }
     ]
 }
